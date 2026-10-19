@@ -1,4 +1,4 @@
-import { en } from "./en";
+import type { Translations } from "./types";
 
 export const ru = {
   common: {
@@ -267,4 +267,4 @@ export const ru = {
     exitHint: "Нажми Esc или набери «exit», чтобы выйти",
     exitButton: "Выйти из Матрицы",
   },
-} as typeof en;
+} satisfies Translations;
